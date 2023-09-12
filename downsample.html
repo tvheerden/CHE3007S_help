@@ -37,23 +37,25 @@
 
 
 <div class="refsynopsisdiv"><h3 class="title">Syntax</h3>
-   <div class="synopsis"><pre><span class="default">[</span><span class="default">dsdata</span><span class="default">, </span><span class="default">dsdates</span><span class="default">] = </span><span class="functionid">downsample</span><span class="default">(</span><span class="default">data</span><span class="default">,</span><span class="default">YMDHms</span><span class="default">, </span><span class="default">frequency</span><span class="default">, </span><span class="default">method</span><span class="default">)</span></pre></div></div>
+   <div class="synopsis"><pre><span class="default">[</span><span class="default">dsdata</span><span class="default">, </span><span class="default">ds_datetime</span><span class="default">, </span><span class="default">ds_datetime_serial</span><span class="default">] = </span><span class="default">downsample_v2</span><span class="default">(</span><span class="default">data</span><span class="default">, </span><span class="default">datetime</span><span class="default">, </span><span class="default">separators</span><span class="default">, </span><span class="default">frequency</span><span class="default">, </span><span class="default">method</span><span class="default">)</span></pre></div></div>
 
 <div class="refsection"><h3 class="title">Parameters</h3>
    <dl><dt><span class="term">dsdata:</span>
             <dd><p class="para">n x m matrix of values, downsampled data</p></dd></dt>
-        <dt><span class="term">dsdatetime:</span>
-            <dd><p class="para">n x 1 vector of values, downsampled</p></dd></dt>
+        <dt><span class="term">ds_datetime:</span>
+            <dd><p class="para">n x 6 matrix of values, downsampled datetime. columns are arranged as [year, month, day, hour, minute, second]</p></dd></dt>
+        <dt><span class="term">ds_datetime_serial:</span>
+            <dd><p class="para">n x 1 column vector of values, downsampled datetime in serial datetime format.</p></dd></dt>
         <dt><span class="term">data:</span>
-            <dd><p class="para">the z parameter   // separated by &#0034;:&#0034;.</p></dd></dt>
+            <dd><p class="para">N x m matrix of values, data to be downsamples</p></dd></dt>
         <dt><span class="term">datetime:</span>
             <dd><p class="para">N x 1 vector of strings, date and time data</p></dd></dt>
         <dt><span class="term">separators:</span>
-            <dd><p class="para">row vector of strings, separators required for splitting datetime</p></dd></dt>
+            <dd><p class="para">row vector of strings, all separators required for splitting datetime</p></dd></dt>
         <dt><span class="term">frequency:</span>
-            <dd><p class="para">string value, downsampling frequency. Options are minutely, hourly, daily, monthly, annually. Or supply frequency as a vector of values in the format [Years Months Days Hours Minutes Seconds].</p></dd></dt>
+            <dd><p class="para">string value, downsampling frequency. Options are minutely, hourly, daily, monthly, annually. OR supply frequency as a vector of values in the format [Years Months Days Hours Minutes Seconds].</p></dd></dt>
         <dt><span class="term">method:</span>
-            <dd><p class="para">string variable, mean or median</p></dd></dt></dl></div>
+            <dd><p class="para">string variable, mean, median or stdev</p></dd></dt></dl></div>
     <br />
 
     <div class="manualnavbar">

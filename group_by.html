@@ -62,7 +62,9 @@ A structure with the following fields is returned:
 <li><p class="para">header: The header data for the data, a 1 x m matrix</p></li>
 <li><p class="para">rows: The unique groups which the data was split into and aggregated, a 1 x p matrix</p></li>
 <li><p class="para">group: a structure with fields of the unique groups, each containing a row vector of data corresponding to the header data</p></li></ul></p>
-   <p class="para"></p></div>
+   <p class="para">Initialize group and define available functions
+New functions can be provided, as long as they accept &#0039;r&#0039;,&#0039;c&#0039; inputs
+Wrapper functions can be made to accept &#0039;r&#0039;,&#0039;c&#0039; and loop through the array</p></div>
     <br />
 
     <div class="manualnavbar">

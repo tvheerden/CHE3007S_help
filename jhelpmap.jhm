@@ -4,10 +4,12 @@
 <mapID target="index" url="index.html"/>
 <mapID target="section_48867305b02a6b815dc2c7d0d9474fb2" url="section_48867305b02a6b815dc2c7d0d9474fb2.html"/>
 <mapID target="DurbinWatson" url="DurbinWatson.html"/>
+<mapID target="R2MSE" url="R2MSE.html"/>
 <mapID target="backfill" url="backfill.html"/>
 <mapID target="bwrcolormap" url="bwrcolormap.html"/>
 <mapID target="calculate_bins" url="calculate_bins.html"/>
 <mapID target="che_boxplot" url="che_boxplot.html"/>
+<mapID target="cut" url="cut.html"/>
 <mapID target="describe" url="describe.html"/>
 <mapID target="describe_strings" url="describe_strings.html"/>
 <mapID target="dfhead" url="dfhead.html"/>
@@ -24,6 +26,8 @@
 <mapID target="ingestCSV" url="ingestCSV.html"/>
 <mapID target="interpolatedfill" url="interpolatedfill.html"/>
 <mapID target="jointplot" url="jointplot.html"/>
+<mapID target="knn_predict" url="knn_predict.html"/>
+<mapID target="knn_regress" url="knn_regress.html"/>
 <mapID target="kruskal" url="kruskal.html"/>
 <mapID target="kurtosis" url="kurtosis.html"/>
 <mapID target="kurtosis_test" url="kurtosis_test.html"/>
@@ -31,9 +35,13 @@
 <mapID target="normality" url="normality.html"/>
 <mapID target="pairplot" url="pairplot.html"/>
 <mapID target="partial_dependance" url="partial_dependance.html"/>
+<mapID target="partial_dependance_knn" url="partial_dependance_knn.html"/>
+<mapID target="partial_dependance_lm" url="partial_dependance_lm.html"/>
 <mapID target="pcolor" url="pcolor.html"/>
 <mapID target="percentile" url="percentile.html"/>
 <mapID target="permutation_importance" url="permutation_importance.html"/>
+<mapID target="permutation_importance_knn" url="permutation_importance_knn.html"/>
+<mapID target="permutation_importance_lm" url="permutation_importance_lm.html"/>
 <mapID target="plotall" url="plotall.html"/>
 <mapID target="plotallscatter" url="plotallscatter.html"/>
 <mapID target="rank_data" url="rank_data.html"/>

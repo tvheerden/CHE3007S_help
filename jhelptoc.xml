@@ -4,10 +4,12 @@
 <tocitem target="index" text="CHE3007S">
 <tocitem target="section_48867305b02a6b815dc2c7d0d9474fb2" text="CHE3007S">
 <tocitem target="DurbinWatson" text="DurbinWatson"/>
+<tocitem target="R2MSE" text="R2MSE"/>
 <tocitem target="backfill" text="backfill"/>
 <tocitem target="bwrcolormap" text="bwrcolormap"/>
 <tocitem target="calculate_bins" text="calculate_bins"/>
 <tocitem target="che_boxplot" text="che_boxplot"/>
+<tocitem target="cut" text="cut"/>
 <tocitem target="describe" text="describe"/>
 <tocitem target="describe_strings" text="describe_strings"/>
 <tocitem target="dfhead" text="dfhead"/>
@@ -24,6 +26,8 @@
 <tocitem target="ingestCSV" text="ingestCSV"/>
 <tocitem target="interpolatedfill" text="interpolatedfill"/>
 <tocitem target="jointplot" text="jointplot"/>
+<tocitem target="knn_predict" text="knn_predict"/>
+<tocitem target="knn_regress" text="knn_regress"/>
 <tocitem target="kruskal" text="kruskal"/>
 <tocitem target="kurtosis" text="kurtosis"/>
 <tocitem target="kurtosis_test" text="kurtosis_test"/>
@@ -31,9 +35,13 @@
 <tocitem target="normality" text="normality"/>
 <tocitem target="pairplot" text="pairplot"/>
 <tocitem target="partial_dependance" text="partial_dependance"/>
+<tocitem target="partial_dependance_knn" text="partial_dependance_knn"/>
+<tocitem target="partial_dependance_lm" text="partial_dependance_lm"/>
 <tocitem target="pcolor" text="pcolor"/>
 <tocitem target="percentile" text="percentile"/>
 <tocitem target="permutation_importance" text="permutation_importance"/>
+<tocitem target="permutation_importance_knn" text="permutation_importance_knn"/>
+<tocitem target="permutation_importance_lm" text="permutation_importance_lm"/>
 <tocitem target="plotall" text="plotall"/>
 <tocitem target="plotallscatter" text="plotallscatter"/>
 <tocitem target="rank_data" text="rank_data"/>
